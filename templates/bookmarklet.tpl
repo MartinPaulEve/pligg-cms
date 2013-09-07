@@ -1,1 +1,1 @@
-<a href="javascript:q=(document.location.href);void(open('{$my_base_url}{$my_pligg_base}/submit.php?url='+escape(q),'','resizable,location,menubar,toolbar,scrollbars,status'));">{#PLIGG_Visual_Name#}</a>
+<a href="javascript:javascript:var baseURL ='{$my_base_url}{$my_pligg_base}/submit.php?url=';location.href=baseURL+encodeURIComponent(location.href);">{#PLIGG_Visual_Name#}</a>
